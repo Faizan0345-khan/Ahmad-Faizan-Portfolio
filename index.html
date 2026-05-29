@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Ahmad Faizan | Flutter & Web Developer Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="net.css">
+
+    
+</head>
+<body>
+
+<div class="cursor-ring"></div>
+<div class="cursor-dot"></div>
+
+<nav>
+    <div class="container nav-flex">
+        <div class="logo"><i class="fab fa-flutter"></i> Ahmad Faizan</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#flutter-apps">Flutter Apps</a>
+            <a href="#web-projects">Web Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact-section">Contact</a>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch">
+                    <input type="checkbox" id="themeCheckbox">
+                    <span class="slider"><i class="fas fa-sun"></i><i class="fas fa-moon"></i></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="container hero-grid">
+        <div class="hero-content">
+            <div class="hero-badge"><i class="fab fa-dart"></i> Flutter • Supabase • Frontend</div>
+            <h1>Building modern <span class="gradient-text">Flutter & Web</span> experiences</h1>
+            <p>Ahmad Faizan — Software Engineering student, Flutter developer, and frontend craftsman. Creator of MedLecturesWalah & PinchMe. Turning complex problems into simple designs.</p>
+            <div class="btn-group">
+                <a href="#flutter-apps" class="btn btn-primary"><i class="fab fa-flutter"></i> Flutter Apps</a>
+                <a href="#web-projects" class="btn btn-secondary"><i class="fas fa-code"></i> Web Projects</a>
+                <a href="#" class="btn btn-secondary"><i class="fas fa-file-arrow-down"></i> Download CV</a>
+            </div>
+            <div class="contact-bar">
+                <span><i class="fas fa-phone"></i> +92 345 4758655</span>
+                <span><i class="fas fa-envelope"></i> khansfaizan383@gmail.com</span>
+                <span><i class="fab fa-linkedin"></i> /ahmad-faizan-57311a272</span>
+                <span><i class="fas fa-map-marker-alt"></i> Mardan, KPK</span>
+            </div>
+        </div>
+        <div class="profile-wrapper">
+            <div class="profile-circle"></div>
+            <div class="profile-circle-dashed"></div>
+            <div class="profile-image-container">
+                <img src="assets/images/my.jpeg" alt="Ahmad Faizan" class="profile-main-image" onerror="this.src='https://ui-avatars.com/api/?name=Ahmad+Faizan&background=3b82f6&color=fff&size=500&bold=true'">
+            </div>
+            <div class="flutter-badge"><i class="fas fa-code"></i></div>
+            <div class="profile-pill-container">
+                <span class="profile-pill">Flutter</span>
+                <span class="profile-pill">Supabase</span>
+                <span class="profile-pill">PostgreSQL</span>
+                <span class="profile-pill">Dart</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p style="max-width:950px;color:var(--text-secondary);line-height:1.8;font-size:0.95rem;">Motivated BCS Software Engineering student at Abdul Wali Khan University, Mardan. Skilled in Flutter, Dart, Supabase, PostgreSQL, React, TailwindCSS, HTML/CSS/JS, and backend integration. Built production-ready applications including MedLecturesWalah and PinchMe with realtime database systems and modern UI/UX experiences.</p>
+        <div class="skills-grid">
+            <span class="skill-tag">Flutter</span><span class="skill-tag">Supabase</span><span class="skill-tag">PostgreSQL</span><span class="skill-tag">Dart</span>
+            <span class="skill-tag">React</span><span class="skill-tag">TailwindCSS</span><span class="skill-tag">REST APIs</span><span class="skill-tag">JavaScript</span>
+        </div>
+    </div>
+</section>
+
+<section id="flutter-apps">
+    <div class="container">
+        <h2 class="section-title">Flutter Apps + Backend Mastery</h2>
+        <div class="projects-grid">
+            <div class="project-card flutter-highlight" data-project="medlectures">
+                <div class="project-icon"><i class="fas fa-graduation-cap" style="color:#3b82f6"></i></div>
+                <div class="project-title">MedLecturesWalah</div>
+                <p>Medical education platform like Udemy for healthcare students. Structured lectures, authentication, realtime updates, categories, and progress tracking.</p>
+                <div class="tech-stack"><span class="tech-badge">Flutter</span><span class="tech-badge">Supabase</span><span class="tech-badge">PostgreSQL</span></div>
+            </div>
+            <div class="project-card" data-project="pinchme">
+                <div class="project-icon"><i class="fas fa-bell" style="color:#f97316"></i></div>
+                <div class="project-title">PinchMe</div>
+                <p>Smart reminder app with recurring tasks, productivity analytics, realtime sync, and notification management.</p>
+                <div class="tech-stack"><span class="tech-badge">Flutter</span><span class="tech-badge">Riverpod</span><span class="tech-badge">Supabase</span></div>
+            </div>
+            <div class="project-card" data-project="supabase">
+                <div class="project-icon"><i class="fas fa-database" style="color:#10b981"></i></div>
+                <div class="project-title">Supabase + PostgreSQL Expertise</div>
+                <p>Realtime subscriptions, row level security, relational schemas, storage buckets, and backend APIs.</p>
+                <div class="tech-stack"><span class="tech-badge">RLS</span><span class="tech-badge">Realtime</span><span class="tech-badge">Edge Functions</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="web-projects">
+    <div class="container">
+        <h2 class="section-title">Frontend Web Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-project="netflix">
+                <div class="project-icon"><i class="fab fa-netflix" style="color:#e50914"></i></div>
+                <div class="project-title">Netflix Clone</div>
+                <p>Pixel-perfect Netflix-inspired UI with responsive layouts, animations, and hero banners.</p>
+                <div class="tech-stack"><span class="tech-badge">HTML</span><span class="tech-badge">CSS</span><span class="tech-badge">JS</span></div>
+            </div>
+            <div class="project-card" data-project="titch">
+                <div class="project-icon"><i class="fas fa-cart-shopping" style="color:#10b981"></i></div>
+                <div class="project-title">Titch Button</div>
+                <p>Modern ecommerce frontend with animated product cards, shopping experience, and responsive UX.</p>
+                <div class="tech-stack"><span class="tech-badge">React</span><span class="tech-badge">CSS Modules</span></div>
+            </div>
+            <div class="project-card" data-project="gamesaga">
+                <div class="project-icon"><i class="fas fa-gamepad" style="color:#8b5cf6"></i></div>
+                <div class="project-title">Game Saga</div>
+                <p>Gaming portal interface featuring immersive hero banners and smooth animations.</p>
+                <div class="tech-stack"><span class="tech-badge">HTML</span><span class="tech-badge">CSS</span><span class="tech-badge">GSAP</span></div>
+            </div>
+            <div class="project-card" data-project="shopiflyz">
+                <div class="project-icon"><i class="fab fa-shopify" style="color:#5e8e3e"></i></div>
+                <div class="project-title">Shopiflyz</div>
+                <p>Ecommerce frontend with filtering, localstorage cart system, and premium responsive UI.</p>
+                <div class="tech-stack"><span class="tech-badge">TailwindCSS</span><span class="tech-badge">React</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="projects-grid">
+            <div class="project-card"><div class="project-icon"><i class="fas fa-store"></i></div><div class="project-title">ShopBazars</div><p>Managed ecommerce operations, customer handling, listings, and product sales from 2023-2025.</p></div>
+            <div class="project-card"><div class="project-icon"><i class="fas fa-mobile-screen-button"></i></div><div class="project-title">Flutter Development</div><p>Developed multiple Flutter applications integrated with Supabase backend systems.</p></div>
+            <div class="project-card"><div class="project-icon"><i class="fas fa-chart-line"></i></div><div class="project-title">Data Scraping & Analysis</div><p>Created BeautifulSoup and Python automation scripts for ecommerce and market analysis.</p></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact-section">
+    <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-grid">
+            <div class="contact-info-card">
+                <h3><i class="fas fa-address-card"></i> Contact Info</h3>
+                <div class="contact-detail-item"><i class="fas fa-map-marker-alt"></i><span>Bughdada, Mardan - KPK, Pakistan</span></div>
+                <div class="contact-detail-item"><i class="fas fa-phone-alt"></i><span>+92 345 4758655</span></div>
+                <div class="contact-detail-item"><i class="fas fa-envelope"></i><span>khansfaizan383@gmail.com</span></div>
+                <div class="contact-detail-item"><i class="fab fa-linkedin"></i><span>linkedin.com/in/ahmad-faizan-57311a272</span></div>
+                <div class="contact-detail-item"><i class="fab fa-instagram"></i><span>instagram.com/not_xcalibur</span></div>
+            </div>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email Address">
+                <select><option>Flutter Project</option><option>Frontend Collaboration</option><option>Freelance Work</option><option>Other Inquiry</option></select>
+                <textarea rows="3" placeholder="Your Message"></textarea>
+                <button class="btn btn-primary" id="sendMessageBtn" style="width:100%; justify-content:center; padding:0.7rem;"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- DEVELOPER SECTION -->
+<div class="container">
+    <div class="developer-section">
+        <div class="developer-title">About Developer</div>
+        <div class="developer-bio">
+            Ahmad Faizan is a passionate Software Engineering student and Flutter developer with a strong focus on building scalable mobile applications and modern web experiences. With expertise in Supabase, PostgreSQL, and frontend technologies, he turns complex problems into elegant solutions. Always eager to learn and collaborate on innovative projects.
+        </div>
+        <div class="developer-social-links">
+            <a href="https://www.linkedin.com/in/ahmad-faizan-57311a272" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Faizan0345-khan" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/not_xcalibur" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</div>
+
+<footer class="premium-footer">
+    <div class="container">
+        <div class="footer-bottom">
+            <p>© 2026 Ahmad Faizan. All rights reserved. Built with Flutter spirit & <i class="fas fa-heart" style="color: #ef4444;"></i> for Supabase/PostgreSQL.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- MODAL POPUP -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <div id="modalContent"></div>
+    </div>
+</div>
+
+<script src="net.js"></script>
+
+</body>
+</html>
