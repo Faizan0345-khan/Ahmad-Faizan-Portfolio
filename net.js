@@ -1,18 +1,19 @@
 // Image sets for each Flutter app
-    const appImages = {
-        medlectures: [
-            "https://placehold.co/300x600/3b82f6/white?text=MedLectures+-+Home",
-            "https://placehold.co/300x600/3b82f6/white?text=MedLectures+-+Lecture",
-            "https://placehold.co/300x600/3b82f6/white?text=MedLectures+-+Categories",
-            "https://placehold.co/300x600/3b82f6/white?text=MedLectures+-+Profile"
-        ],
-        pinchme: [
-            "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Tasks",
-            "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Add+Task",
-            "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Reminders",
-            "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Analytics"
-        ]
-    };
+    // Just change this ONE object in your existing JavaScript:
+const appImages = {
+    medlectures: [
+        "assets/images/page 1.png",
+        "assets/images/page 2.png",
+        "assets/images/page3.png",
+        "assets/images/page 4.png"
+    ],
+    pinchme: [  // Keep these as they were
+        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Tasks",
+        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Add+Task",
+        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Reminders",
+        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Analytics"
+    ]
+};
 
     const projectsData = {
         medlectures: {
