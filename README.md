@@ -1,4 +1,4 @@
-now we will wowrk on an  attractive readme for git hub <h1 align="center">👋 Hi there, I'm Ahmad Faizan</h1>
+ <h1 align="center">👋 Hi there, I'm Ahmad Faizan</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2D9C7C&center=true&vCenter=true&width=435&lines=Front-End+Web+Developer;Flutter+App+Developer;Full-Stack+Mobile+Dev;Problem+Solver" alt="Typing SVG" />
