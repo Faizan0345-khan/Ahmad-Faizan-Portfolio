@@ -1,5 +1,4 @@
-// Image sets for each Flutter app
-    // Just change this ONE object in your existing JavaScript:
+
 const appImages = {
     medlectures: [
         "assets/images/page 1.png",
@@ -7,11 +6,12 @@ const appImages = {
         "assets/images/page3.png",
         "assets/images/page 4.png"
     ],
-    pinchme: [  // Keep these as they were
-        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Tasks",
-        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Add+Task",
-        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Reminders",
-        "https://placehold.co/300x600/f97316/white?text=PinchMe+-+Analytics"
+    pinchme: [ 
+        "assets/images/1p.jpeg",
+        "assets/images/2p.jpeg",
+        "assets/images/3p.jpeg",
+        "assets/images/4p.jpeg",
+        
     ]
 };
 
@@ -68,6 +68,14 @@ const appImages = {
             fullDescription: "A complete e-commerce frontend with product filtering and sorting, cart system using LocalStorage, wishlist functionality.",
             github: "https://github.com/Faizan0345-khan/shopiflyz",
             live: "https://faizan0345-khan.github.io/Shopiflyz-faizan/", isWeb: true
+        },
+        NexaStructure: {
+            title: "Shopiflyz", icon: "🏗️",
+            tech: ["HTML CSS JS", "PostgreSQL", "SupaBase"],
+            description: "Modern architectural website showcasing projects, designs, and construction solutions.",
+            fullDescription: "A modern and responsive architectural website developed to showcase NexaStructure's architectural projects, design concepts, services, and construction solutions through a clean and professional interface.",
+            github: "https://github.com/Faizan0345-khan",
+            live: "https://nexastructure.com/", isWeb: true
         }
     };
 
